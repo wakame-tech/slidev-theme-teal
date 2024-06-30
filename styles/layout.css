@@ -6,7 +6,7 @@
   @apply p-6;
 
   p {
-    @apply text-[1.4rem] my-2 leading-8;
+    @apply text-[1.2rem] my-1 leading-8;
   }
 
   h1 {
@@ -23,12 +23,12 @@
     @apply text-lg mb-1 font-bold;
   }
 
-  li * {
-    @apply text-2xl leading-8;
+  li, li * {
+    @apply text-lg leading-8;
   }
 
   li::marker {
-    @apply text-lg text-gray-700;
+    @apply text-lg text-teal-700;
   }
 
   blockquote {
